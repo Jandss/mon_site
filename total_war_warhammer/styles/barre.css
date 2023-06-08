@@ -1,0 +1,51 @@
+.barre{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 850px;
+    margin: auto;
+}
+
+.barre li{
+    list-style: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.time_draft{
+    width: 50px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.turn_draft{
+    background: grey;
+    min-width: 100px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 1px #000000;
+}
+
+.side_draft{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #000000;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.blue_barre{
+    background: skyblue;
+}
+
+.red_barre{
+    background: orangered;
+}
+
+@media screen and (max-width: 850px){
+    .side_draft{
+        width: 35%;
+    }
+}

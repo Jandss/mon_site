@@ -1,0 +1,35 @@
+header {
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: red;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.navigation{
+    padding: 0.5rem;
+    background: darkred;
+    margin: auto;
+    width: 245px;
+    color: white;
+}
+
+.navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li a{
+    outline: none;
+}
+
+.navigation li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: "→";
+}

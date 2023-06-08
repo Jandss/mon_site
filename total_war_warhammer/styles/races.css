@@ -1,0 +1,118 @@
+.races{
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 850px;
+}
+
+.races li{
+    margin: 10px;
+    padding: 10px;
+	list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 110px;
+    height: 170px;
+    box-shadow: 0 0 10px 1px #000000;
+    text-shadow: 3px 3px 8px #000000;
+}
+
+.races li input{ 
+    background: darkred;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 0px;
+    box-shadow: 0 0 4px 0.5px #000000;
+    width: 90%;
+    height: 25%;
+    border-radius: 3px;
+}
+
+.races li input:hover{
+    background: indianred;
+    width: 93%;
+    height: 28%;
+}
+
+@media screen AND (max-width: 1450px) {
+    .races{
+        width: 50%;
+    }
+}
+
+.Empire{
+    background: url('../assets/factions/empire.jpg') center/cover;
+}
+.PeauxV{
+    background: url('../assets/factions/greenskin.jpg') center/cover;
+}
+.Nains{
+    background: url('../assets/factions/nain.jpg') center/cover;
+}
+.ComptesV{
+    background: url('../assets/factions/vampire_counts.jpg') center/cover;
+}
+.GuerriersC{
+    background: url('../assets/factions/chaos_warrior.jpg') center/cover;
+}
+.HommeB{
+    background: url('../assets/factions/beastmen.jpg') center/cover;
+}
+.Bretonnie{
+    background: url('../assets/factions/bretonnie.jpg') center/cover;
+}
+.ElfsS{
+    background: url('../assets/factions/wood_elfs.jpg') center/cover;
+}
+.Norsca{
+    background: url('../assets/factions/norsca.jpg') center/cover;
+}
+.ElfsN{
+    background: url('../assets/factions/dark_elves.jpg') center/cover;
+}
+.HautsE{
+    background: url('../assets/factions/high_elves.jpg') center/cover;
+}
+.HommeL{
+    background: url('../assets/factions/lizardmen.jpg') center/cover;
+}
+.Skaven{
+    background: url('../assets/factions/skaven.jpg') center/cover;
+}
+.RoiT{
+    background: url('../assets/factions/tomb_king.jpg') center/cover;
+}
+.CoteV{
+    background: url('../assets/factions/vampire_coast.jpg') center/cover;
+}
+.Kislev{
+    background: url('../assets/factions/kislev.jpg') center/cover;
+}
+.DemonC{
+    background: url('../assets/factions/deamon_of_chaos.jpg') center/cover;
+}
+.GrandC{
+    background: url('../assets/factions/grand_cathay.jpg') center/cover;
+}
+.RoyaumesO{
+    background: url('../assets/factions/ogres.jpg') center/cover;
+}
+.Khorne{
+    background: url('../assets/factions/khorne.jpg') center/cover;
+}
+.Nurgle{
+    background: url('../assets/factions/nurgle.jpg') center/cover;
+}
+.Slaanesh{
+    background: url('../assets/factions/slaanesh.jpg') center/cover;
+}
+.Tzeentch{
+    background: url('../assets/factions/tzeentch.jpg') center/cover;
+}
+.NainC{
+    background: url('../assets/factions/chaos_dwarfs.jpg') center/cover;
+}

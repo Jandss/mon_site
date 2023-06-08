@@ -1,0 +1,12 @@
+header {
+    background: #fefae0;
+    border: 2px solid #d4a373;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #d4a373;
+    font-family: 'Castoro Titling', cursive;
+}
+

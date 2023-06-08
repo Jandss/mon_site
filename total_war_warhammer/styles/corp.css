@@ -1,0 +1,71 @@
+@import url('./races.css');
+
+.corp{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.draft{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	align-items: center;
+}
+
+.draft .pick{
+	list-style: none;
+	width: 180px;
+    height: 260px;
+	background: grey;
+	color: white;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	padding: 20px;
+	box-shadow: 0 0 10px 1px #000000;
+}
+
+.draft .bans ul{
+	display: flex;
+	margin: auto;
+}
+
+.draft .bans ul li{
+	list-style: none;
+	width: 95px;
+	height: 140px;
+	color: white;
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+	align-items: end;
+	padding: 8px;
+	box-shadow: 0 0 10px 1px #000000;
+}
+
+/*EN FONCTION DE LA TAILLE DE L'ECRAN*/
+@media screen AND (max-width: 1670px) {
+    .draft > .bans > ul{
+        flex-wrap: wrap;
+    }
+    .draft{
+        width: 100%;
+    }
+}
+
+@media screen AND (max-width: 1450px) {
+    .draft > .bans > ul > li{
+    	width: 30%;
+    }
+    .draft{
+    	width: 30%;
+    }
+}
+
+/*montré où en est la draft - A AMELIORER*/
+.blue_side_draft .blue_pick2{
+	box-shadow: none;
+	border: 10px solid darkred;
+}
