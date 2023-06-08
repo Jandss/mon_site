@@ -1,0 +1,52 @@
+.choix li{
+	list-style: none;
+	width: 180px;
+	height: 150px;
+	margin: 30px;
+	transition: 0.4s;
+
+}
+
+.choix{
+	padding: 10px;
+	display: flex;
+	max-width: 1080px;
+	justify-content: space-around;
+	margin: 30px auto;
+    background-color: #fefae0;
+    border: 2px solid #d4a373;
+    flex-wrap: wrap;
+}
+
+.choix li a button{
+	height: 100%;
+	width: 100%;
+	border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+.choix li:hover{
+    width: 190px;
+    height: 160px;
+}
+
+.choix1{
+	background: url('../assets/choix1.jpg') center/cover;
+}
+.choix2{
+	background: url('../assets/choix2.jpg') center/cover;
+}
+.choix3{
+	background: url('../assets/choix3.jpg') center/cover;
+}
+.choix4{
+	background: url('../assets/choix4.jpg') center/cover;
+}
+.choix5{
+	background: url('../assets/choix5.jpg') center/cover;
+}
+.choix6{
+	background: url('../assets/choix6.jpg') center/cover;
+}
