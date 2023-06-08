@@ -1,0 +1,20 @@
+@import url('./header.css');
+@import url('./choix.css');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Roboto&display=swap');
+
+body {
+    margin: 10px;
+    background: #faedcd;
+    min-height: 100vh;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    display: block;
+    margin: 5px;
+    color: grey;
+}

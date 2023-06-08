@@ -1,0 +1,38 @@
+header {
+    background: #fefae0;
+    border: 2px solid #d4a373;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #d4a373;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.navigation{
+    padding: 0.5rem;
+    background: #ccd5ae;
+    margin: auto;
+    width: 152px;
+    color: #d4a373;
+}
+
+.navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li a{
+    outline: none;
+}
+
+.navigation li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: ">";
+}

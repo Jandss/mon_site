@@ -1,0 +1,41 @@
+.choix li{
+	list-style: none;
+	width: 40%;
+	height: 200px;
+	margin: 30px;
+	transition: 0.4s;
+
+}
+
+.choix{
+	padding: 10px;
+	display: flex;
+	max-width: 1080px;
+	justify-content: center;
+	margin: 30px auto;
+    background-color: #fefae0;
+    border: 2px solid #d4a373;
+    flex-wrap: wrap;
+}
+
+.choix li a button{
+	height: 100%;
+	width: 100%;
+	border: none;
+    cursor: pointer;
+}
+
+.choix li:hover{
+    width: 43%;
+    height: 210px;
+}
+
+.clol{
+	background: url('../assets/clol.jpg') center/cover;
+}
+.stww{
+	background: url('../assets/stww.jpg') center/cover;
+}
+.tdbd{
+	background: url('../assets/tdbd.jpg') center/cover;
+}
