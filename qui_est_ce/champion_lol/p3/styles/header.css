@@ -1,0 +1,29 @@
+header {
+    background: #fefae0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #d4a373;;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.retour{
+    border: none;
+    background: #faedcd;
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    transition: 0.2s;
+}
+
+header a{
+    background: grey;
+}
+
+.retour:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
